@@ -1,0 +1,36 @@
+.tweet {
+  border: 2px solid rgb(209, 209, 209);
+  width: 300px;
+  margin: 2em;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: rgb(235, 248, 255);
+}
+
+.arroba {
+  color: rgb(133, 133, 133);
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nome {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.imagem {
+  width: 80px;
+}
+
+.topoTwet {
+  display: flex;
+  align-items: center;
+}
+
+#tweets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
